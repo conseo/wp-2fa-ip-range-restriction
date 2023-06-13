@@ -217,11 +217,6 @@ function disable_with_ips()
   }
   return false;
 }
-// if (defined('WP_2FA_VERSION')) {
-//   add_filter(WP_2FA_PREFIX . 'skip_2fa_login_form', 'disable_with_ips');
-// } else {
-//   //var_dump('WP_2FA_PREFIX');
-// }
 
 function getUserIPAddress()
 {
